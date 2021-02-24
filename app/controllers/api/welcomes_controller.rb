@@ -5,7 +5,7 @@ class Api::WelcomesController < ApplicationController
   end
 
   def about
-    wilson = "ruby"
+    @ruby = "ruby"
     render "about.json.jb"
   end
 end
